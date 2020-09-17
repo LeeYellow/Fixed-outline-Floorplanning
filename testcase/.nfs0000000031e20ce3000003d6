@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for sitenu in $(seq 1 500)
+do
+  echo "seed = ${sitenu}"
+	./main_300_01 n300.hardblocks n300.pl n300.nets output_300_01 0.1 ${sitenu}
+
+done

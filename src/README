@@ -1,0 +1,13 @@
+--How to compile
+under this dictionary, enter the following command:
+$ make
+It will generate a executable file "main" in the same dictionary.
+
+$ make clean
+It will remove the executable file "main" in the same dictionary.
+
+
+--How to run
+Usage: ./<exe>  <hardblocks>  <pl>  <nets>  <output floorplan file name> <space ratio>
+e.g.:
+./main ../testcases/n200.hardblocks ../testcases/n200.pl ../testcases/n200.nets ../output/n200.floorplan 0.15
